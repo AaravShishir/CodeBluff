@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.panel-header-text
+{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.panel-primary
+{
+    border: none;
+
+    .panel-heading
+    {
+        background-color: #000000;
+        border-radius: 0px;
+        border: none;
+    }
+    .panel-body{
+        padding: 8px 0px 8px 0px;
+        background: #eeeeee;
+    }
+}

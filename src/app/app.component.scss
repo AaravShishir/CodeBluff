@@ -1,0 +1,39 @@
+.no-border{
+    border: none;
+    pointer-events: none;
+    font-style: italic;
+    background: #eeeeee;
+}
+
+.panel-header-text
+{
+    font-weight: 400;
+    font-size: 20px;
+    margin : 0px 5px;
+}
+
+.button-round{
+    border-radius: 27px;
+}
+
+.has-search 
+{
+    .form-control 
+    {
+    padding-left: 2.375rem;
+    height: 42px;
+    }
+    .form-control-feedback {
+        position: absolute;
+        z-index: 2;
+        display: block;
+        width: 9.375rem;
+        height: 2.775rem;
+        line-height: 4.375rem;
+        text-align: center;
+        pointer-events: none;
+        color: #aaa;
+        padding: none;
+    }
+}
+
